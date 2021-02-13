@@ -43,6 +43,7 @@ public interface AuthAPI {
      * @throws IOException If the file can't be found or read.
      * @return true if signed & known signature, null if not signed, false if signed by untrusted key.
      */
-    Boolean checkPluginJarSignature(JarFile jarFile) throws IOException;
+    /** Boolean checkPluginJarSignature(JarFile jarFile) throws IOException;
+    */
 
 }
